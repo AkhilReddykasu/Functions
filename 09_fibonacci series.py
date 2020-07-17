@@ -1,5 +1,5 @@
 """Fibonacci series"""
-'''
+
 def fibonacci():
     num = int(input('enter the range:'))
     n1 , n2 = 0 , 1
@@ -13,7 +13,8 @@ def fibonacci():
             n1 , n2 = n2 , n3
             next += 1
 fibonacci()
-'''
+
+
 
 def fib(n):
     if n == 0:
